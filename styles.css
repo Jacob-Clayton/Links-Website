@@ -1,5 +1,19 @@
+:root{
+    /* SHADOWS */
+    --noShadow: 0rem 0rem 0rem var(--greyLight-2), 0rem 0rem 0rem var(--white);
+    --outShadow: .3rem .3rem .9rem var(--greyLight-2), -.2rem -.2rem .6rem var(--white);
+    --inShadow: inset .2rem .2rem .5rem var(--greyLight-2), inset -.2rem -.2rem .5rem var(--white);
+    --outShadow-large: .5rem .5rem 1.25rem var(--greyLight-2), -.5rem -.5rem 1.5rem var(--white);
+    --inShadow-large: inset .5rem .5rem 1.25rem var(--greyLight-2), inset -.5rem -.5rem 1.5rem var(--white);
+  
+    /* GRADIENTS */
+    --buttonGradient: linear-gradient(185deg, var(--primary-light) 0%, var(--primary) 50%, var(--primary-dark) 100%);
+    --miningGradient: linear-gradient(-20deg, var(--primary-dark), var(--primary-light));
+    --headerGradient: linear-gradient(-20deg, var(--primary-dark), var(--primary));
+}
+
 body {
-    background: rgb(73, 252, 212);
+    background: rgb(206, 255, 244);
     color: rgb(19, 20, 20);
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 15px;
@@ -41,14 +55,14 @@ img {
     margin-top: 10px;
     padding: 20px;
     border-style: outset;
-    border-color: rgb(11, 231, 183);
+    border-color: rgb(71, 255, 215);
     border-width: 2px;
     width: 290px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
-    background-color: rgb(114, 255, 225);
+    background-color: rgb(120, 255, 226);
     box-shadow: 10px;
     }
 
