@@ -1,1 +1,1 @@
-A simple links page I build using HTML and CSS
+A simple links page I built using HTML and CSS
