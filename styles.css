@@ -54,7 +54,7 @@ img {
     margin-right: auto;
     border-radius: 20px;
     background-color: rgb(118, 204, 227, 0.5);
-    box-shadow: .3rem .3rem .9rem rgb(208, 236, 255), -.2rem -.2rem .9rem rgb(255, 255, 255);
+    box-shadow: .3rem .3rem .9rem rgb(173, 221, 234), -.2rem -.2rem .9rem rgb(220, 243, 255);
     }
 
 a {
@@ -73,11 +73,11 @@ a {
 
 a:hover {
     color: rgb(26, 26, 26);
-    background: rgba(106, 230, 255, 0.5);
+    background: rgba(106, 230, 255, 0.4);
     border-style: inset;
     border-color: rgb(255, 255, 255);
     border-width: 0px;
-    box-shadow: .5rem .5rem 1.25rem rgb(227, 245, 255), -.5rem -.5rem 1.5rem rgb(168, 210, 225);
+    box-shadow: .3rem .3rem .9rem rgb(220, 243, 255), -.5rem -.5rem 1.5rem rgb(172, 220, 233);
     transform: translate(0px, 1px);
     }
 
