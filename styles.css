@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
 body {
-    background: rgb(160, 242, 255);
+    background-image: url('assets/cloud.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     align-items: center;
-    color: rgb(35, 35, 35);
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-family: "poppins", sans-serif;
     font-size: 15px;
+    font-weight: 100;
     letter-spacing: 2px;  
     }
 
@@ -23,7 +30,7 @@ img {
 
 .profile-name {
     text-align: center;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     letter-spacing: 0.15em;
     font-size: 25px;
@@ -33,18 +40,19 @@ img {
 
 .bio {
     text-align: center;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 200;
-    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 0.1rem;
     margin-top: 5px;
     margin-bottom: 25px;
-}
+    }
 
 .links {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 15px;
     border-style: outset;
     border-color: rgb(216, 250, 255);
     border-width: 0px;
@@ -53,26 +61,12 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    background-color: rgb(118, 204, 227, 0.5);
+    background-color: rgb(118, 204, 227, 0.1);
     box-shadow: .3rem .3rem .9rem rgb(173, 221, 234), -.2rem -.2rem .9rem rgb(220, 243, 255);
     }
 
-a {
-    text-decoration: none;
-    color: rgb(34, 35, 35);
-    transition: color 1s;
-    }
-
-.bottom-text {
-    text-align: center;
-    color: rgb(117, 124, 129);
-    margin-top: 40px;
-    font-size: 10px;
-    font-weight: lighter;
-    }
-
-a:hover {
-    color: rgb(26, 26, 26);
+.links:hover {
+    color: rgb(0, 0, 0);
     background: rgba(106, 230, 255, 0.4);
     border-style: inset;
     border-color: rgb(255, 255, 255);
@@ -81,10 +75,27 @@ a:hover {
     transform: translate(0px, 1px);
     }
 
-i {
-    margin-right: 20px;
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 1s;
     }
 
+/*Footer text*/
+.bottom-text {
+    text-align: center;
+    color: rgb(117, 124, 129);
+    margin-top: 40px;
+    font-size: 10px;
+    font-weight: lighter;
+    }
+
+/*Button Icons*/
+i {
+    margin-right: 15px;
+    }
+
+/*Animated icon*/
 .animated {
     display: block;
     margin-left: auto;
@@ -93,4 +104,4 @@ i {
     margin-bottom: 2px;
     text-align: center;
     
-}
+    }
