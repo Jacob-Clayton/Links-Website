@@ -32,23 +32,26 @@ img {
     margin-top: 4%;
     height: auto;
     max-width: 100px;
+    padding: 18px;
     }
 
 .profile-name {
     text-align: center;
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 600;
-    letter-spacing: 0.175em;
-    font-size: 1.4rem;
-    padding: 20px;
+    letter-spacing: 0.15em;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 5px;
     }
 
 .bio {
     text-align: center;
-    font-family: "Raleway", Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 14px;
-    padding: 10px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
 
 .links {
