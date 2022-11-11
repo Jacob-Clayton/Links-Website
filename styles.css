@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins: 300, 400, 500, 600, 700, 800, 900&display=swap'); 
 
 body {
     background-image: url('assets/cloud.jpg');
@@ -11,7 +11,7 @@ body {
     font-family: "poppins", sans-serif;
     font-size: 15px;
     font-weight: 100;
-    letter-spacing: 2px;  
+    letter-spacing: 2px;
     }
 
 img {
@@ -29,7 +29,7 @@ img {
     }
 
 .profile-name {
-    text-align: center;
+    text-align: center;  
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     letter-spacing: 0.15em;
