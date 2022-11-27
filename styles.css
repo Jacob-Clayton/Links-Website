@@ -8,7 +8,7 @@ body {
     background-position: center;
     align-items: center;
     color: rgb(0, 0, 0);
-    font-family: "poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 2px;
@@ -32,7 +32,6 @@ img {
     text-align: center;  
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    letter-spacing: 0.15em;
     font-size: 25px;
     margin-top: 8px;
     margin-bottom: 5px;
@@ -41,9 +40,8 @@ img {
 .bio {
     text-align: center;
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 17px;
-    letter-spacing: 0.1rem;
     margin-top: 5px;
     margin-bottom: 25px;
     }
@@ -77,6 +75,7 @@ img {
 
 a {
     text-decoration: none;
+    font-weight: 300;
     color: rgb(0, 0, 0);
     transition: color 1s;
     }
