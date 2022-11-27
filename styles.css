@@ -30,7 +30,6 @@ img {
 
 .profile-name {
     text-align: center;  
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 25px;
     margin-top: 8px;
@@ -39,7 +38,6 @@ img {
 
 .bio {
     text-align: center;
-    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 17px;
     margin-top: 5px;
@@ -65,12 +63,13 @@ img {
 
 .links:hover {
     color: rgb(0, 0, 0);
-    background: rgba(106, 230, 255, 0.4);
+    background: rgba(106, 230, 255, 0.2);
     border-style: inset;
     border-color: rgb(255, 255, 255);
     border-width: 0px;
     box-shadow: .3rem .3rem .9rem rgb(220, 243, 255), -.5rem -.5rem 1.5rem rgb(172, 220, 233);
-    transform: translate(0px, 1px);
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
     }
 
 a {
