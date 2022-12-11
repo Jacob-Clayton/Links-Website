@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins: 300, 400, 500, 600, 700, 800, 900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Jost: 300, 400, 500, 600, 700, 800, 900&display=swap'); 
 
 body {
     background-image: url('assets/cloud.jpg');
@@ -8,7 +8,7 @@ body {
     background-position: center;
     align-items: center;
     color: rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 2px;
