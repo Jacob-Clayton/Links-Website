@@ -10,7 +10,7 @@ body {
     color: rgb(0, 0, 0);
     font-family: 'Jost', sans-serif;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 2px;
     }
 
@@ -38,7 +38,7 @@ img {
 
 .bio {
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 17px;
     margin-top: 5px;
     margin-bottom: 25px;
@@ -74,7 +74,7 @@ img {
 
 a {
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(0, 0, 0);
     transition: color 1s;
     }
